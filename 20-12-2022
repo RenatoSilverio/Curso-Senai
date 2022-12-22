@@ -1,0 +1,103 @@
+programa {
+
+    inteiro linha,coluna
+    cadeia nome, condicao
+    cadeia matriz[2][2] = {
+      {" ", " ",},
+      {" ", " ",}
+    }
+    logico podeContinuar = verdadeiro
+
+  funcao repeticao(){
+    enquanto(podeContinuar){
+      escreva("Digite uma linha: ")
+      leia(linha)
+      escreva("Digite uma coluna: ")
+      leia(coluna)
+      escreva("Digite um Nome: ")
+      leia(nome)
+      escreva("Deseja continuar? S/N ")
+      leia(condicao)
+
+      matriz[linha][coluna] = nome
+      
+      se(condicao == "s"){
+        podeContinuar = verdadeiro
+      }
+      senao{
+        podeContinuar = falso
+      }
+    }
+  }
+
+  funcao imprimir(){
+    para(inteiro i=0; i<2; i++){
+      para(inteiro j=0; j<2; j++){
+        escreva(matriz[i][j])
+      }
+      escreva("/n")
+    }
+  }
+
+
+  funcao inicio() {
+      repeticao()
+      imprimir()
+  }
+}
+__________________________________________________________________________________________________________________________________________________
+
+programa { 
+   inteiro linha,coluna
+    cadeia nome, condicao
+    cadeia matriz[3][3] = {
+      {" ", " "," ",},
+      
+      {" ", " "," ",},
+      
+      {" ", " "," ",}
+    }
+    logico podeContinuar = verdadeiro
+
+  funcao repeticao(){
+    enquanto(podeContinuar){
+      escreva("Digite uma linha: ")
+      leia(linha)
+      escreva("Digite uma coluna: ")
+      leia(coluna)
+      escreva("Digite O simbolo: X/O ")
+      leia(nome)
+      escreva("Deseja continuar? S/N ")
+      leia(condicao)
+
+      matriz[linha][coluna] = nome
+      
+      se(condicao == "s"){
+        podeContinuar = verdadeiro
+      }
+      senao{
+        podeContinuar = falso
+      }
+      imprimir()
+    }
+  }
+
+ funcao imprimir(){
+    para(inteiro i=0; i<3; i++){
+      para(inteiro j=0; j<3; j++){
+        escreva(matriz[i][j]) 
+        
+      }
+      escreva("\n ")
+    
+    }
+  }
+
+  funcao inicio() { 
+    repeticao()
+    imprimir()
+    
+  }
+}
+_____________________________________________________________________________________________________________________________________________________________
+
