@@ -1,0 +1,18 @@
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url('https://s2.glbimg.com/l2MDrjcqk1UO3d27qi2UGWlu9As=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/o/H/vkUJjhSpWd3rL68htV5w/mapa-bb.png');
+            color: 10px;
+            font-weight: 100;
+        }
+        
+  
+       /*body{
+           
+        }*/
+    
+    selector{
+        background-color: #c0c0c0;
+        color: 10px;
+        font-weight: 100;
+    }

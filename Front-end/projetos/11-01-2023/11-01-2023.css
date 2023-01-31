@@ -1,0 +1,16 @@
+.caixa{
+    height: 600px ;
+    border: 2px solid white;
+    font-size: 50px;
+    line-height: 600px;
+}
+
+.white{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.black{
+    background-color: rgb(34, 34, 34);
+    color: honeydew;
+}
