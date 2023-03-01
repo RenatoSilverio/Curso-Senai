@@ -1,0 +1,28 @@
+/*.caixa{
+    height:0;
+    border-radius: 15%;
+    font-size: 50px;
+    line-height: auto;
+   
+}
+*/
+.fundo{
+    
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-futurista-de-tecnologia-gradiente_23-2149122416.jpg?w=2000);
+    height: 600px;
+   
+}
+
+.fonte_grande{
+    color: white;
+    font-size: 50px;
+    font-style: Arial;
+    height: 60%;
+    width: 100%;
+}
+
+.fonte_pequena{
+    color: white;
+    font-size: 20px;
+    font-style: Arial;
+}

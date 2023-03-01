@@ -1,0 +1,31 @@
+programa {
+  logico verifica = verdadeiro 
+  cadeia nome
+  cadeia planilhadenomes[2][2]
+    
+       funcao fazrepetir(){
+          enquanto (verifica){
+            escreva(" Escreva o nome: ")
+            leia(nome)
+            escreva(" Escreva a linha: ")
+            leia(i)
+            escreva(" Escreva Coluna: ")
+            leia(j)
+            nome = planilhadenomes[i][j]          
+          }
+        }
+        escreva(nome)
+      }
+  funcao salve(){
+    para(inteiro i=0; i<2; i++){
+      para(inteiro j=0; j<2; j++){
+      }
+    } 
+  }
+
+    
+
+  funcao inicio() {
+    fazrepetir()
+  }
+}
